@@ -1,6 +1,14 @@
+import {useEffect} from 'react'
+
 import { Box, Typography, Container } from "@mui/material"
 
 const ConnectComponent: React.FC = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, [])
   return (
     <Container maxWidth="md" sx={{mt: 5}}>
       <Typography variant="h3" gutterBottom>Are you someone who</Typography>
@@ -15,6 +23,11 @@ const ConnectComponent: React.FC = () => {
           email me at <a href="mailto:ved.parvez2@gmail.com">ved.parvez2@gmail.com</a> (OR)
           You can book some time on my calendar by clicking <a href={"__REPLACE_WITH_CALENDLY_LINK"}>here</a>.
           </Typography>
+          <Box 
+            className="calendly-inline-widget" 
+            data-url="https://calendly.com/vedikaparvez/30min" 
+            sx={{minWidth: "320px", height: "630px", mt: 5}}
+          />
       </Container>
     </Container>
   )
