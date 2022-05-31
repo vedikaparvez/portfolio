@@ -20,8 +20,8 @@ const ConnectComponent: React.FC = () => {
       <Container maxWidth="md" sx={{mt: 5}}>
         <Typography variant="h3" gutterBottom>If this sounds like you, shoot me an email or let&apos;s chat!</Typography>
         <Typography variant="body1">
-          email me at <a href="mailto:ved.parvez2@gmail.com">ved.parvez2@gmail.com</a> (OR)
-          You can book some time on my calendar by clicking <a href={"__REPLACE_WITH_CALENDLY_LINK"}>here</a>.
+          email me at <a href="mailto:vedika@vedikaparvez.com">vedika@vedikaparvez.com</a> (OR)
+          You can book some time on my calendar by clicking <a href={"https://calendly.com/vedikaparvez/30min"}>here</a>.
           </Typography>
           <Box 
             className="calendly-inline-widget" 

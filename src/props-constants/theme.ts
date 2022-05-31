@@ -34,11 +34,19 @@ const theme = createTheme({
   },
   typography: {
     h1: {
-      fontSize: "40px",
+      fontSize: "68px",
       fontWeight: "bold",
     },
     h2: {
       fontSize: "22px",
+    },
+    h6: {
+      fontSize: "40px",
+      fontWeight: "bold",
+    },
+    body1: {
+      fontSize: "18px",
+      fontWeight: "regular",
     },
   },
 })

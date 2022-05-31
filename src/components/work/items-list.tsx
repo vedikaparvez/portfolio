@@ -10,7 +10,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 const WorkItem: React.FC<{item: any, isMobile: Boolean}> = ({item, isMobile}) => {
   return (
     <TimelineItem >
-      <TimelineOppositeContent sx={{textAlign:"center", pb: 10, display: {xs: 'none', sm: "block"}}}>
+      <TimelineOppositeContent sx={{textAlign:"center", pb: 10, display: {xs: 'none', sm: "block"}, mb: {xs: 2, sm:0}}}>
       {item.image && (<img src={item.image}  width="100%" alt={item.title}/>)}
       </TimelineOppositeContent>
       <TimelineSeparator>
@@ -20,13 +20,13 @@ const WorkItem: React.FC<{item: any, isMobile: Boolean}> = ({item, isMobile}) =>
       <TimelineContent sx={{textAlign: "left"}}>
         <Typography variant="h5" gutterBottom color="GrayText">{item.year}</Typography>
         <Box textAlign={"left"} sx={{height: "100%", display: "flex", flexDirection: "column", justifyContent:"center", pb: {xs: 10, sm: 0}}}>
-            {item.title && <Typography variant="h5" gutterBottom>{item.title}</Typography>}
+            {item.title && <Typography variant="h6" gutterBottom>{item.title}</Typography>}
             {item.points && (
             <ul>
               {item.points.map((point: string, index: number) => <li key={index}>{point}</li>)}
             </ul>
             )}
-            {isMobile && item.image &&  <img src={item.image} width="100%" alt={item.title} />}
+            {isMobile && item.image &&  <><br /> <br/> <img src={item.image} width="100%" alt={item.title}  /> </>}
         </Box>
       </TimelineContent>
     </TimelineItem>

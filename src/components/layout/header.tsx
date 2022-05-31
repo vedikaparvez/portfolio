@@ -99,10 +99,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
                 </Link>
               ))}
             </Box>
-          )}
-          <Link href={PageRoutes.CONSULTING}>
-            <a> <Button color="primary" variant="contained">{"Let's Connect!"}</Button> </a>
-          </Link>
+          )}<Button href="https://www.linkedin.com/in/vedika-parvez/" color="primary" variant="contained">{"Let's Connect!"}</Button>
         </Toolbar>
       </Container>
     </AppBar>

@@ -3,8 +3,8 @@ import { Grid, Typography } from "@mui/material";
 const FunStuffItem: React.FC<{item: any, index: number}> = ({item, index}) => {
   return (
     <Grid item container sx={{flexDirection: {xs: "row", sm: index %2 === 0? "row-reverse" :"row"}, justifyContent: "space-between"}}>
-      <Grid item xs={12} sm={5} sx={{alignItems: "center"}}>
-        <Typography variant="h4" gutterBottom> {item.title}</Typography>
+      <Grid item xs={12} sm={5} sx={{alignItems: "center", mb: {xs: 2, sm:0}}}>
+        <Typography variant="h6" gutterBottom> {item.title}</Typography>
         <Typography variant="body1"> {item.body}</Typography>
       </Grid>
       <Grid item xs={12} sm={5}>
