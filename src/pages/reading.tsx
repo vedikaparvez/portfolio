@@ -16,7 +16,7 @@ export default function WorkPage() {
         <meta name="description" content="Vedika Parvez" />
       </Head>
       <Box sx={{mb: 5}}>
-        <HeroSection text="I thoroughly enjoy reading books in my free time. Click on a book for more!" />
+        <HeroSection text="I thoroughly enjoy reading books in my free time." />
         <ReadingItemsList items={readingContent} />
       </Box>
     </>

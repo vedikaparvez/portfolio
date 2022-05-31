@@ -11,7 +11,7 @@ const WorkItem: React.FC<{item: any, isMobile: Boolean}> = ({item, isMobile}) =>
   return (
     <TimelineItem >
       <TimelineOppositeContent sx={{textAlign:"center", pb: 10, display: {xs: 'none', sm: "block"}}}>
-      {item.image && (<img src={item.image} height="100%" width="100%" alt={item.title}/>)}
+      {item.image && (<img src={item.image}  width="100%" alt={item.title}/>)}
       </TimelineOppositeContent>
       <TimelineSeparator>
         <TimelineDot />
@@ -26,7 +26,7 @@ const WorkItem: React.FC<{item: any, isMobile: Boolean}> = ({item, isMobile}) =>
               {item.points.map((point: string, index: number) => <li key={index}>{point}</li>)}
             </ul>
             )}
-            {isMobile && item.image &&  <img src={item.image} height="100%" width="100%" alt={item.title} />}
+            {isMobile && item.image &&  <img src={item.image} width="100%" alt={item.title} />}
         </Box>
       </TimelineContent>
     </TimelineItem>

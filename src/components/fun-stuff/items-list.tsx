@@ -8,7 +8,7 @@ const FunStuffItem: React.FC<{item: any, index: number}> = ({item, index}) => {
         <Typography variant="body1"> {item.body}</Typography>
       </Grid>
       <Grid item xs={12} sm={5}>
-        <img src={item.image} alt={item.title} height="100%" width="100%" />
+        <img src={item.image} alt={item.title} width="100%" />
       </Grid>
     </Grid>
   )

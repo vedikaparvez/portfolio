@@ -4,7 +4,7 @@ import { Container } from "@mui/system"
 const ResumeComponent: React.FC = () => {
   return (
     <Container maxWidth="md">
-     <img src={ImageSources.resume} alt="resume" height="100%" width="100%" />
+     <img src={ImageSources.resume} alt="resume" width="100%" />
   </Container>
   )
 }
