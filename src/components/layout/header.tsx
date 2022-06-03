@@ -42,7 +42,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
               <Box>
                 <Link href={PageRoutes.HOME}>
                   <a>
-                    <Image src={ImageSources.logo} width={30} height={30} alt="logo"/>
+                    <Image src={ImageSources.navBarLogo} width={30} height={30} alt="logo"/>
                   </a>
                 </Link>
               </Box>
@@ -75,7 +75,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
           <Box sx={{display: {xs: "none", sm: "block"}}}>
             <Link href={PageRoutes.HOME}>
               <a>
-                <Image src={ImageSources.logo} width={50} height={50} alt="logo"/>
+                <Image src={ImageSources.navBarLogo} width={50} height={50} alt="logo"/>
               </a>
             </Link>
           </Box>

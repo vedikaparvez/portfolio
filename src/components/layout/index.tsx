@@ -8,7 +8,7 @@ const Layout: React.FC = ({children}) => {
   return (
     <Box>
       <Header headerLinks={HeaderLinks} />
-      <Box sx={{display: "flex", flexDirection: "column", flexGrow: 1, mt: {xs: 7, sm: 8}}}>
+      <Box sx={{display: "flex", flexDirection: "column", flexGrow: 1}}>
         <Box sx={{minHeight: "100%"}}>
           <Container maxWidth="xl"> {children}</Container>
         </Box>

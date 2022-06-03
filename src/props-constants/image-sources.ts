@@ -1,5 +1,6 @@
 const ImageSources = {
-  logo: "/assets/shared/logo.png",
+  navBarLogo: "/assets/shared/nav-logo.png",
+  homePageHero: "/assets/shared/home-page-hero.png",
   funStuff1: "/assets/fun-stuff/fun-stuff-1.png",
   funStuff2: "/assets/fun-stuff/fun-stuff-2.png",
   funStuff3: "/assets/fun-stuff/fun-stuff-3.png",

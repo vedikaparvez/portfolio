@@ -4,7 +4,7 @@ const HeroSection: React.FC<{text: string}> = ({text}) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); 
   return (
-   <Box sx={{display: "flex", alignItems: "center", height: "90vh", borderBottom: "1px solid grey"}}>
+   <Box sx={{display: "flex", alignItems: "center", height: "60vh", borderBottom: "1px solid grey"}}>
       <Container maxWidth="md" sx={{textAlign:"center"}}>
         <Typography variant={isMobile ? "h6": "h1"}>
           <div dangerouslySetInnerHTML={{__html: text}}></div>

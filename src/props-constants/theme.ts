@@ -36,17 +36,22 @@ const theme = createTheme({
     h1: {
       fontSize: "68px",
       fontWeight: "bold",
+      fontFamily: "Epilogue",
     },
     h2: {
       fontSize: "22px",
+      fontFamily: "Epilogue",
     },
     h6: {
       fontSize: "40px",
       fontWeight: "bold",
+      lineHeight: "116%",
+      fontFamily: "Epilogue",
     },
     body1: {
       fontSize: "18px",
       fontWeight: "regular",
+      fontFamily: "Roboto",
     },
   },
 })

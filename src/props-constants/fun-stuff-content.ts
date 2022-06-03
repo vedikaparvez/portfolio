@@ -4,7 +4,6 @@ const FunStuffContent: any[] = [
   {
     title: "Playing golf",
     body: `
-  
     I held a golf club for the first time at the age of 6, and there was no looking back!
     
     As an adolescent the fresh air, lush greens and open space brought me back to the course on the regular. I trained and played the South Zone Amateur circuit in India for 3 consecutive years. 
@@ -13,19 +12,21 @@ const FunStuffContent: any[] = [
     image: ImageSources.funStuff1,
   },
   {
-    title: "Lifting some weights",
+    title: "Practising my violin",
     body: `
-    I have a 4 years strong and a lifetime to go kinda relationship with weight lifting and other forms fitness.
+    I read somewhere that “Music heals the soul, it calms us, centres us, and creates focus in our lives. Written so far ahead of its time, classical music reminds us of an important message: that humanity struggles onwards despite the odds.”, and I couldn't agree more.
     
-    I thouroughly enjoy hitting the gym everyday. I'm currently aiming to build muscle and follow the 6 day PPL split.
+    Growing up playing Bach, Mozart, Telemann, and Vivaldi's compositions, music from the Baroque period always heightens my emotions to a great degree. My two decade connection with music has been one of my biggest pillars of strength so far.
     
-    Macro calculation to aid progressive overload has been my understanding of truth in these year.
+    My favourite composition from the era hands down is Mozart's Eine kleine Nachtmusik!
     
-    Recent feat: Deadlifted 80 kgs!`,
-    image: ImageSources.funStuff2,
+    Looking to jam anytime? Hit me up!`,
+    image: ImageSources.funStuff4,
   },
   {
-    title: "Baking treats @ Feast GuiltFree",
+    title: `Baking treats 
+           @ 
+Feast Guilt Free`,
     body: `
     My OGs (and now you!) know how big a sweet tooth I am.
     
@@ -39,16 +40,16 @@ const FunStuffContent: any[] = [
     image: ImageSources.funStuff3,
   },
   {
-    title: "Practising my violin",
+    title: "Lifting some weights",
     body: `
-    I read somewhere that “Music heals the soul, it calms us, centres us, and creates focus in our lives. Written so far ahead of its time, classical music reminds us of an important message: that humanity struggles onwards despite the odds.”, and I couldn't agree more.
+    I have a 4 years strong and a lifetime to go kinda relationship with weight lifting and other forms fitness.
     
-    Growing up playing Bach, Mozart, Telemann, and Vivaldi's compositions, music from the Baroque period always heightens my emotions to a great degree. My two decade connection with music has been one of my biggest pillars of strength so far.
+    I thouroughly enjoy hitting the gym everyday. I'm currently aiming to build muscle and follow the 6 day PPL split.
     
-    My favourite composition from the era hands down is Mozart's Eine kleine Nachtmusik!
+    Macro calculation to aid progressive overload has been my understanding of truth in these year.
     
-    Looking to jam anytime? Hit me up!`,
-    image: ImageSources.funStuff4,
+    Recent feat: Deadlifted 80 kgs!`,
+    image: ImageSources.funStuff2,
   },
   {
     title: "Hiking and/or traveling",

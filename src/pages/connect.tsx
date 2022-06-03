@@ -14,7 +14,7 @@ export default function ConnectPage() {
         <meta name="description" content="Vedika Parvez" />
       </Head>
       <Box sx={{mb: 5}}>
-        <HeroSection text="Let's talk! <br /><br /><br /> (Don't worry about charges, we'll work something out!)" />
+        <HeroSection text="Great minds discuss ideas.<br/><br/>Let's talk!" />
         <ConnectComponent />
       </Box>
     </>

@@ -1,14 +1,14 @@
 import ImageSources from "./image-sources"
 
 const ReadingContent: any[] = [
-  {
-    title: "Creativity, Inc.",
-    author: "Ed Catmull",
-    genre: "Biography",
-    review: "(in Progress)",
-    rating: "-",
-    image: ImageSources.reading1,
-  },
+  // {
+  //   title: "Creativity, Inc.",
+  //   author: "Ed Catmull",
+  //   genre: "Biography",
+  //   review: "(in Progress)",
+  //   rating: "-",
+  //   image: ImageSources.reading1,
+  // },
   {
     title: "Steve Jobs",
     author: "Walter Isaacson",

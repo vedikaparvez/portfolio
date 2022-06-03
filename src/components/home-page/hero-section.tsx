@@ -12,7 +12,7 @@ const HomePageHeroSection: React.FC = ({}) => {
 
   return (
     <Container maxWidth="lg" sx={{textAlign:"center", height: "fit-content"}}>
-      <Image src={ImageSources.logo} alt="logo" height="236px" width="280px" />
+      <Image src={ImageSources.homePageHero} alt="logo" height="236px" width="280px" />
       <Container>
         <Typography variant="h1"  gutterBottom={isMobile}>
           {"Hi! I'm Vedika."}
