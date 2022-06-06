@@ -40,7 +40,8 @@ const theme = createTheme({
     },
     h2: {
       fontSize: "22px",
-      fontFamily: "Epilogue",
+      fontFamily: "Roboto",
+      fontWeight: "medium",
     },
     h6: {
       fontSize: "40px",
@@ -52,6 +53,11 @@ const theme = createTheme({
       fontSize: "18px",
       fontWeight: "regular",
       fontFamily: "Roboto",
+    },
+    body2: {
+      fontSize: "20px",
+      fontWeight: "bold",
+      fontFamily: "Epilogue",
     },
   },
 })

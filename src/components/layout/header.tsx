@@ -42,7 +42,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
               <Box>
                 <Link href={PageRoutes.HOME}>
                   <a>
-                    <Image src={ImageSources.navBarLogo} width={30} height={30} alt="logo"/>
+                    <Image src={ImageSources.navBarLogo} width={50} height={40} alt="logo" />
                   </a>
                 </Link>
               </Box>
@@ -75,7 +75,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
           <Box sx={{display: {xs: "none", sm: "block"}}}>
             <Link href={PageRoutes.HOME}>
               <a>
-                <Image src={ImageSources.navBarLogo} width={50} height={50} alt="logo"/>
+                <Image src={ImageSources.navBarLogo} width={50} height={50} alt="logo" />
               </a>
             </Link>
           </Box>
@@ -99,7 +99,13 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
                 </Link>
               ))}
             </Box>
-          )}<Button href="https://www.linkedin.com/in/vedika-parvez/" color="primary" variant="contained">{"Let's Connect!"}</Button>
+          )}
+          <Button
+            href="https://www.linkedin.com/in/vedika-parvez/"
+            color="primary"
+            variant="contained">
+            {"Let's Connect!"}
+          </Button>
         </Toolbar>
       </Container>
     </AppBar>
