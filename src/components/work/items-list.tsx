@@ -12,13 +12,13 @@ const WorkItem: React.FC<{item: any; isMobile: Boolean}> = ({item, isMobile}) =>
     <TimelineItem>
       <TimelineOppositeContent
         sx={{textAlign: "center", display: {xs: "none", sm: "block"}, mb: {xs: 2, sm: 0}}}>
-        {item.image && <img src={item.image} alt={item.title} />}
+        {item.image && <img src={item.image} alt={item.title} width={isMobile ? "100%" : ""} />}
       </TimelineOppositeContent>
       <TimelineSeparator>
         <TimelineDot />
         {item.title && <TimelineConnector />}
       </TimelineSeparator>
-      <TimelineContent sx={{textAlign: "left"}}>
+      <TimelineContent sx={{textAlign: "left", width: {xs: "100%", sm: ""}}}>
         <Typography variant="h5" gutterBottom color="GrayText">
           {item.year}
         </Typography>
@@ -32,7 +32,7 @@ const WorkItem: React.FC<{item: any; isMobile: Boolean}> = ({item, isMobile}) =>
             pb: {xs: 10, sm: 0},
           }}>
           {item.title && (
-            <Typography variant="h6" gutterBottom>
+            <Typography variant="h6" gutterBottom sx={{wordWrap: "break-word"}}>
               {item.title}
             </Typography>
           )}

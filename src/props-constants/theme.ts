@@ -8,6 +8,9 @@ const theme = createTheme({
         a: {
           textDecoration: "none",
         },
+        "*": {
+          border: "1px solid redl",
+        },
       },
     },
     MuiLink: {
