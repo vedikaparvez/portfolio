@@ -10,8 +10,8 @@ const HomePageHeroSection: React.FC = ({}) => {
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"))
 
   const onClickPlay = () => {
-    const audio = document.getElementById("audio")
-    audio && audio.play && audio.play()
+    // const audio = document.getElementById("audio")
+    // audio && audio.play && audio.play()
   }
 
   return (
