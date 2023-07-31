@@ -106,6 +106,7 @@ const Header: React.FC<IHeader> = ({headerLinks}) => {
             variant="contained">
             {"Let's Connect!"}
           </Button>
+          <Link href="/onboarding">Onboadring</Link>
         </Toolbar>
       </Container>
     </AppBar>
