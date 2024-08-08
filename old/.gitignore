@@ -4,8 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-yarn.lock
-package-lock.json
 
 # testing
 /coverage
@@ -16,7 +14,6 @@ package-lock.json
 
 # production
 /build
-/.json
 
 # misc
 .DS_Store
@@ -29,13 +26,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
-
-# Local Netlify folder
-.netlify
