@@ -77,7 +77,7 @@ export const experiencesData = [
     location: "Chennai, India",
     locationType: "Hybrid",
     companyName: "Gemini Associates",
-    website: "https://adease.ai",
+    website: null,
     contributions: [
       "Key member of the Cognitive Computing and Computational Linguistics team at ARA, an end-to-end messaging system to enable behavior change (Patent application no: IN 202041010232)",
       "Collaborated closely with the principal research investigator to conduct an empirical study on digital message optimization. Contributed to formulating the P3 (Personalized-Persuasive-Pragmatic) Messaging Approach which is the thrust to the creation of cognitive messages.",
