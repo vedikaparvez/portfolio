@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         👋🏻 Hey there! I'm Vedika, your go-to gal for all things B2B SaaS product
-        management, with a scoop of prompt engineering and AI magic. Over the
+        management, with a background in linguistic AI research. Over the
         last 6 years, I've journeyed through the tech world, leading the charge
         from ideation to execution, it's been quite the ride!
       </p>
