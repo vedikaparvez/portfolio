@@ -34,11 +34,11 @@ export const experiencesData = [
     companyName: "Rocketlane",
     website: "http://www.rocketlane.comw",
     contributions: [
-      "Latest launch: Customer Portal 2.0 🚀 - a website-like interface that significantly enhanced user experience, making it intuitive and engaging for all users.",
-      "Leading the Rocketlane Marketplace Vision - Pioneering the development of Rocketlane Marketplace, shaping the future of integrations and extensibility for our platform.",
-      "Introducing 'Custom Objects' - revolutionizing how teams personalize their Rocketlane data flows and unlocking new levels of customization and efficiency.",
-      "Led the end-to-end implementation of the Automations feature from ideation to successful adoption. Uncovered a successful adoption curve with 75% adoption company-wide"
-    ],
+      "Latest launch: Customer Portal 2.0 🚀 (https://lnkd.in/gAAc8XkF) - Redesigned the customer-facing interface into a sleek, customizable, website-like experience, achieving a 50% boost in user engagement and enabling effortless collaboration throughout the post-sales journey.",
+"Leading the Rocketlane Marketplace Vision - A centralized marketplace to offer seamless integrations, empowering users to extend the platform’s functionality and meet unique business needs across industries.",
+"Currently building AI-Sheets, an enterprise feature aimed at simplifying data management and improving collaboration between cross-functional teams, ensuring seamless project tracking and more efficient implementation workflows.",
+"Led the end-to-end implementation of the Automations feature from ideation to successful adoption. Uncovered a successful adoption curve with 75% adoption company-wide."
+],
     icon: React.createElement(CgWorkAlt),
     date: "June 2022 - Present",
   },
