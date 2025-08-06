@@ -19,19 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        👋🏻 Hey there! I'm Vedika, your go-to gal for all things B2B SaaS product
-        management, with a background in linguistic AI research. Over the
-        last 6 years, I've journeyed through the tech world, leading the charge
-        from ideation to execution, it's been quite the ride!
+        👋🏻 Hey there! I’m Vedika, your go-to gal for all things B2B SaaS product management, with a background in linguistic AI research. Over the last 6 years, I’ve journeyed through the tech world, leading the charge from ideation to execution, it’s been quite the ride!
       </p>
       <p className="mb-3">
-        🔥 What drives me? It's the thrill in mastering 'systems thinking'
-        allowing me to approach product management with a holistic vision, the
-        joy of seeing a product come to life, and the satisfaction of knowing it
-        makes a difference. Looking ahead, I'm all in on pushing the boundaries
-        of what's possible, exploring new markets, and maybe, just maybe,
-        revolutionizing a few more industries along the way.
+        🚀 I'm building product at Rocketlane today, where I'm driving the vision for our AI Agents engine. I'm also working on exciting features like Rocketlane Marketplace and AI Sheets. Previously, I led the launch of Customer Portal 2.0—a major milestone that’s transforming client collaboration. Check it out here: https://lnkd.in/gAAc8XkF
       </p>
+<p className="mb-3">
+  🔥 What drives me? It’s the thrill in mastering 'systems thinking', the joy of seeing a product come to life, and the satisfaction of knowing it makes a difference. Looking ahead, I’m all in on pushing the boundaries of what’s possible, exploring new markets, and maybe, just maybe, revolutionizing a few industries along the way.
+</p>
       <p className="mb-3">
         💬 Wanna chat about the future of tech, swap product stories, or discuss
         the latest in AI? Hit me up. Let's make something awesome together!
