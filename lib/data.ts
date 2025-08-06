@@ -34,9 +34,9 @@ export const experiencesData = [
     companyName: "Rocketlane",
     website: "http://www.rocketlane.comw",
     contributions: [
-      "Latest Launch: Customer Portal 2.0 (https://lnkd.in/gAAc8XkF) – Reimagined the customer portal from the ground up, transforming it into a sleek, customizable, DIY website-like experience. This redesign drove over 50% boost in user engagement, secured enterprise deals, and increased end-user adoption, enabling effortless collaboration throughout the pre and post-sales journey.",
-"Leading the Rocketlane Marketplace Vision – A centralized marketplace to deliver seamless integrations and a developer-first experience, enabling custom workflows and powerful enterprise integrations. This feature empowers vendors and customers to extend the platform’s functionality, supporting complex workflows for professional services teams and addressing unique business needs across industries.",
-"Currently building AI-Sheets, an enterprise feature aimed at simplifying data management and improving collaboration between cross-functional teams, ensuring seamless project tracking and more efficient implementation workflows.",
+"Building AI Agents—an agentic workflow engine for post-sales delivery teams.",
+"Leading the Marketplace Vision – A centralized marketplace to deliver seamless integrations and a developer-first experience, enabling custom workflows and powerful enterprise integrations. Alongside building AI-Sheets, an enterprise feature aimed at simplifying data management and improving collaboration between teams, ensuring seamless project tracking and efficient implementation workflows.",
+"Latest Launch: Customer Portal 2.0 (https://lnkd.in/gAAc8XkF) – Reimagined the customer portal from the ground up, transforming it into a sleek, customizable, DIY website-like experience. This redesign drove over 50% boost in user engagement, secured enterprise deals, and increased end-user adoption, enabling effortless collaboration throughout the pre and post-sales journey.",
 "Led the end-to-end implementation of the Automations feature – Built the automation engine from the ground up, driving a 75% adoption customer-wide. This feature significantly increases operational efficiency, saving team members valuable time for high-impact tasks, while unlocking critical governance workflows that enhance Rocketlane’s overall functionality and performance."
 ],
     icon: React.createElement(CgWorkAlt),
